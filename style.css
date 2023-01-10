@@ -66,7 +66,7 @@ body {
   display: grid;
   place-content: center;
   margin: 0 auto;
-  max-width: 144rem;
+  width: 100vw;
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   /* font-size: var(--fs-body); */
@@ -214,6 +214,9 @@ select {
 
 .price {
   gap: 0.6rem;
+}
+.price p {
+  color: var(--color-secondary);
 }
 .time {
   gap: 0.9rem;
